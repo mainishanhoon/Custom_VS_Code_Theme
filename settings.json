@@ -14,14 +14,14 @@
   "workbench.editor.showTabs": "none",
   "editor.minimap.enabled": false,
   "editor.lineNumbers": "on",
-  "editor.guides.indentation": false,
 
   // Silence the Noise
   "breadcrumbs.enabled": false,
   "scm.diffDecorations": "none",
   "editor.hover.delay": 1500,
   "editor.hover.enabled": true,
-  "editor.matchBrackets": "never",
+  "editor.guides.bracketPairs": "active",
+  "editor.matchBrackets": "always",
   "workbench.tips.enabled": false,
   "editor.colorDecorators": true,
   "git.decorations.enabled": false,
@@ -80,8 +80,8 @@
   },
   "files.associations": {
     ".php_cs": "php",
-    ".php_cs.dist": "php"
-    "*html": "html"
+    ".php_cs.dist": "php",
+    ".html": "html"
   },
 
   /**
@@ -211,7 +211,7 @@
   "workbench.iconTheme": "catppuccin-perfect-dark",
   "material-icon-theme.files.color": "#42a5f5",
 "workbench.tree.enableStickyScroll": false,
-"editor.renderWhitespace": "all",
+"editor.renderWhitespace": "none",
 "git.autofetch": true,
 "terminal.integrated.fontFamily": "Geist Mono",
 "terminal.integrated.fontWeight": "normal",
@@ -226,5 +226,11 @@
 "breadcrumbs.showNamespaces": false,
 "editor.experimentalWhitespaceRendering": "off",
 "git.suggestSmartCommit": false,
-"window.menuBarVisibility": "compact"
+"window.menuBarVisibility": "compact",
+"editor.guides.highlightActiveIndentation": "always",
+"git.openRepositoryInParentFolders": "never",
+"zenMode.hideLineNumbers": false,
+"search.showLineNumbers": true,
+"notebook.lineNumbers": "on",
+"explorer.confirmPasteNative": false
 }
